@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.ts"],"names":[],"mappings":"AAAA,QAAQ,CAAC,gBAAT,CAA0B,kBAA1B,EAA8C,IAA9C;;AAEA,SAAS,IAAT,GAAa;AACX,EAAA,OAAO,CAAC,GAAR,CAAY,WAAZ;AACD","file":"main.c39d6dcf.js","sourceRoot":"..","sourcesContent":["document.addEventListener('DOMContentLoaded', init);\r\n\r\nfunction init() {\r\n  console.log('App ready');\r\n}\r\n"]}
