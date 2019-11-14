@@ -9,12 +9,12 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AtomicBuilders/neutron/issues"
+    "url": "https://github.com/AtomicBuilders/proton/issues"
   },
-  "homepage": "https://github.com/AtomicBuilders/neutron#readme",
+  "homepage": "https://github.com/AtomicBuilders/proton#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AtomicBuilders/neutron.git"
+    "url": "git+https://github.com/AtomicBuilders/proton.git"
   },
   "keywords": [
     "JS",
@@ -26,6 +26,8 @@
   "scripts": {
     "start": "parcel index.html",
     "watch": "parcel watch index.html",
+    "predeploy": "rm -rf dist && parcel build index.html",
+    "deploy": "gh-pages -d dist",
     "test": "test",
     "format": "prettier --write"
   },
@@ -35,6 +37,7 @@
     "eslint": "^6.6.0",
     "eslint-config-prettier": "^6.5.0",
     "eslint-plugin-prettier": "^3.1.1",
+    "gh-pages": "^2.1.1",
     "parcel-bundler": "^1.12.4",
     "prettier": "^1.19.1",
     "typescript": "^3.7.2"
