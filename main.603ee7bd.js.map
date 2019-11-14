@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.ts"],"names":[],"mappings":";AAEA,SAAS,IACP,QAAQ,IAAI,aAHd,SAAS,iBAAiB,mBAAoB","file":"main.603ee7bd.js","sourceRoot":"..","sourcesContent":["document.addEventListener('DOMContentLoaded', init);\r\n\r\nfunction init() {\r\n  console.log('App ready');\r\n}\r\n"]}
